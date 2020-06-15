@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "l-tabs": "../../dist/tabs/index",
+    "l-tabpanel": "../../dist/tabpanel/index",
+    "content-title": "/components/content-title/index",
+    "content-card": "/components/content-card/index",
+    "l-search-bar": "/dist/search-bar/index",
+    "l-icon":"/dist/icon/index",
+    "l-button":"/dist/button/index",
+    "l-grid-item": "/dist/grid-item/index",
+    "l-grid": "/dist/grid/index",
+    "l-card":"/dist/card/index"
+  }
+}

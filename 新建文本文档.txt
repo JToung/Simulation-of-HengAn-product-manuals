@@ -1,0 +1,97 @@
+imagesTabs: [{
+      tab: '纸业',
+      key: 'paper',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/dining-active.png',
+        defaultImage: './../../images/tab-icon/dining.png',
+      }
+    },
+    {
+      tab: '女性护理',
+      key: 'feminineCare',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/badroom-active.png',
+        defaultImage: './../../images/tab-icon/badroom.png',
+      }
+    }, {
+      tab: '老年护理',
+      key: 'agedCare',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/kichten-active.png',
+        defaultImage: './../../images/tab-icon/kichten.png',
+      }
+    },
+    {
+      tab: '婴童',
+      key: 'child',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/bathroom-active.png',
+        defaultImage: './../../images/tab-icon/bathroom.png',
+      }
+    },
+    {
+      tab: '湿巾',
+      key: 'wetWipes',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/bathroom-active.png',
+        defaultImage: './../../images/tab-icon/bathroom.png',
+      }
+    },
+    {
+      tab: '家居',
+      key: 'household',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/bathroom-active.png',
+        defaultImage: './../../images/tab-icon/bathroom.png',
+      }
+    },
+    {
+      tab: '日化',
+      key: 'cosmetic',
+      picPlacement: 'top',
+      image: {
+        activeImage: './../../images/tab-icon/bathroom-active.png',
+        defaultImage: './../../images/tab-icon/bathroom.png',
+      }
+    }
+    ],
+
+
+
+
+{
+              name: '七度空间',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: 'SPACE7',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '安尔乐',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '小嗨森',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '若颜初',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '新呼吸',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },

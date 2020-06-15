@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/family/index",
+    "pages/brandStory/index",
+    "pages/activity/index",
+    "pages/contactUs/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole"
+  ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#5cadff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/family/index",
+      "iconPath": "./images/icon/home.png",
+      "selectedIconPath": "./images/icon/home-fill.png",
+      "text": "产品家族"
+    }, {
+      "pagePath": "pages/brandStory/index",
+      "iconPath": "./images/icon/star.png",
+      "selectedIconPath": "./images/icon/star-fill - 副本.png",
+      "text": "品牌故事"
+    }, {
+      "pagePath": "pages/activity/index",
+      "iconPath": "./images/icon/detail.png",
+      "selectedIconPath": "./images/icon/detail-fill.png",
+      "text": "最新活动"
+    }, {
+      "pagePath": "pages/contactUs/index",
+      "iconPath": "./images/icon/comment.png",
+      "selectedIconPath": "./images/icon/comment_fill.png",
+      "text": "联系我们"
+    }]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "模拟恒安集团产品手册",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "usingComponents": {
+    "l-toast": "dist/toast/index",
+    "l-message": "dist/message/index"
+  }
+}
