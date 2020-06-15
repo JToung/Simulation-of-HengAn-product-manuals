@@ -172,11 +172,11 @@ page {
   height: 98vh;
 }
 .textView {
-  height: 60vh;
+  height: 70vh;
 }
 
 .inputView {
-  height: 40vh;
+  height: 30vh;
   background-color: #fff;
 }
 

@@ -53,14 +53,14 @@
 	<view class="textView">
 		<content-card l-content="content" name="联系我们" class="content-card">
 			<view class="textView">
-				这里放发过的建议
+				暂无留言
 			</view>
 		</content-card>
 	</view>
 	<view class="inputView">
-		<content-card l-content="content" name="我想说" class="content-card" class="inputView">
+		<content-card l-content="content" name="留言" class="content-card" class="inputView">
 			<view class="input-textarea">
-				<l-textarea auto-height="{{true}}" placeholder="说说你的想法吧..." />
+				<l-textarea auto-height="{{true}}" placeholder="请输入留言内容..." />
 			</view>
 			<view>
 				<l-button size="long">发送</l-button>
