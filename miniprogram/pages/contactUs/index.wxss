@@ -167,3 +167,19 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.content-card {
+  height: 98vh;
+}
+.textView {
+  height: 60vh;
+}
+
+.inputView {
+  height: 40vh;
+  background-color: #fff;
+}
+
+.input-textarea {
+  padding-bottom: 2vw;
+}
