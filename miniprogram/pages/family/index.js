@@ -181,9 +181,29 @@ const page1 = {
             },
           ]
         };
-        console.log(navigationClass1);
+        const navigationBrand1 = {
+          title: '纸业品牌',
+          brand: [
+            {
+              name: '心相印',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '竹π',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '品诺',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+          ]
+        };
         this.setData({
           navigationClass: navigationClass1,
+          navigationBrand: navigationBrand1
         });
         break;
       case 'feminineCare':
@@ -207,8 +227,44 @@ const page1 = {
             }
           ]
         };
+        const navigationBrand2 = {
+          title: '女性护理品牌',
+          brand: [
+            {
+              name: '七度空间',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: 'SPACE7',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '安尔乐',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '小嗨森',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '若颜初',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '新呼吸',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+          ]
+        };
         this.setData({
           navigationClass: navigationClass2,
+          navigationBrand: navigationBrand2
         });
         break;
       case 'agedCare':
@@ -242,8 +298,24 @@ const page1 = {
             }
           ]
         };
+        const navigationBrand3 = {
+          title: '老年护理品牌',
+          brand: [
+            {
+              name: '安尔康',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '便利妥',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+          ]
+        };
         this.setData({
           navigationClass: navigationClass3,
+          navigationBrand: navigationBrand3
         });
         break;
       case 'child':
@@ -272,8 +344,24 @@ const page1 = {
             }
           ]
         };
+        const navigationBrand4 = {
+          title: '婴童品牌',
+          brand: [
+            {
+              name: 'Anerle安儿乐',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: 'Q.MO奇莫',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+          ]
+        };
         this.setData({
           navigationClass: navigationClass4,
+          navigationBrand: navigationBrand4
         });
         break;
       case 'wetWipes':
@@ -302,8 +390,34 @@ const page1 = {
             },
           ]
         };
+        const navigationBrand5 = {
+          title: '湿巾品牌',
+          brand: [
+            {
+              name: '心相印',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '淳一',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '七度空间',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '优选',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+          ]
+        };
         this.setData({
           navigationClass: navigationClass5,
+          navigationBrand: navigationBrand5
         });
         break;
       case 'household':
@@ -392,8 +506,29 @@ const page1 = {
             },
           ]
         };
+        const navigationBrand6 = {
+          title: '家居品牌',
+          brand: [
+            {
+              name: '悦适',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '心相印',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '家来纳',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            }
+          ]
+        };
         this.setData({
           navigationClass: navigationClass6,
+          navigationBrand: navigationBrand6
         });
         break;
       case 'cosmetic':
@@ -432,13 +567,30 @@ const page1 = {
             },
           ]
         };
+        const navigationBrand7 = {
+          title: '日化品牌',
+          brand: [
+            {
+              name: '心相印',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            },
+            {
+              name: '美媛春',
+              img: '../../images/brandImg/xinxiangyin.jpg',
+              url: ''
+            }
+          ]
+        };
         this.setData({
           navigationClass: navigationClass7,
+          navigationBrand: navigationBrand7
         });
         break;
       default:
         this.setData({
           navigationClass: {},
+          navigationBrand: {}
         });
         break;
     }
@@ -451,6 +603,14 @@ const page1 = {
     //   title: `切换到标签 ${event.detail.activeKey}`,
     //   icon: 'none',
     // });
+  },
+
+  brandGrid(e) {
+    console.log(e.detail.cell)
+    wx.showToast({
+      title: e.detail.cell.name,
+      icon: 'none'
+    });
   },
   classGrid(e) {
     console.log(e.detail.cell)

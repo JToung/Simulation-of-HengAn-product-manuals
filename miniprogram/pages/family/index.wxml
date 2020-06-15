@@ -21,6 +21,21 @@
 		<l-tabs active-key="{{ active }}" bind:linchange="onTabsChange" l-class-header-line="header-line" equal-width="{{false}}" scrollable animatedForLine="{{true}}" l-class-active="l-class-active" l-class-tabimage="tab-image" has-line="{{false}}">
 			<l-tabpanel wx:for="{{imagesTabs}}" tab="{{item.tab}}" key="{{item.key}}" slot="{{item.key}}" wx:key="key" image="{{item.image}}" pic-placement="{{item.picPlacement}}">
 				<view class="tab-content">
+					<content-card l-content="content" name="{{ navigationBrand.title }}">
+						<view class="view-container">
+							<l-grid>
+								<l-grid-item wx:for="{{navigationBrand.brand}}" wx:key="index" key="{{index}}" slot="{{index}}" bind:linitemtap="brandGrid" cell="{{item}}" l-grid-item="grid-item">
+									<l-card type="cover" plaintext l-class="card" title="{{item.name}}" class="cardClass">
+										<view class="imgCenter">
+											<image src="{{item.img}}" class="imgClass" />
+										</view>
+									</l-card>
+								</l-grid-item>
+							</l-grid>
+						</view>
+					</content-card>
+				</view>
+				<view class="tab-content">
 					<content-card l-content="content" name="{{ navigationClass.title }}">
 						<view class="view-container">
 							<l-grid>

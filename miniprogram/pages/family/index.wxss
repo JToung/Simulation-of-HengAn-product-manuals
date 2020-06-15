@@ -279,8 +279,9 @@ swiper-item image {
 
 .cardClass {
   width: 30vw;
-  padding-bottom: 2vw;
+  padding-bottom: 1vw;
 }
+
 .text {
   height: 5vw;
   font-size: 3.6vw;

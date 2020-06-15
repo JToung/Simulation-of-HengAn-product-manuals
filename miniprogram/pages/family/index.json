@@ -1,7 +1,5 @@
 {
   "usingComponents": {
-    "van-tab": "@vant/weapp/tab/index",
-    "van-tabs": "@vant/weapp/tabs/index",
     "l-tabs": "../../dist/tabs/index",
     "l-tabpanel": "../../dist/tabpanel/index",
     "content-title": "/components/content-title/index",
