@@ -51,9 +51,7 @@
 	
 	<!-- 测试 -->
 	<view class="uploader">
-		<navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
-			<text>contactUs页面</text>
-		</navigator>
+
 	</view>
 
 	<!-- 路由 -->
