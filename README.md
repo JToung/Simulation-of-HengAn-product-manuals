@@ -10,3 +10,7 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+## 模拟恒安集团产品手册小程序
+主要框架为LinUI
+-仅供学习使用
+
